@@ -1,14 +1,24 @@
 
 
 import React from 'react';
-import Questions from './F&Q/Questions';
-import Slider from './FastSlider/Slider';
+
+import Footer2 from './Footer2';
+import { FooterCopy } from './FooterCopy';
+import HowItWorksFlip from './HowItWorksFlip';
+import MeetTheTeam from './MeetTheTeam';
+import ProductCarousel from './ProductCarousel';;
+
+
 
 const App = () => {
   return (
     <div className='container mx-auto'>
-      <Slider/>
-      <Questions/>
+      <HowItWorksFlip/>
+      <MeetTheTeam/>
+      <ProductCarousel/>
+    
+      <FooterCopy/>
+      
     </div>
   );
 };
