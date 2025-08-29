@@ -8,7 +8,7 @@ const SingleQuestion = ({question,answer}) => {
      const [showAnswer, setShowAnswer] = useState(false);
     return (
            <>
-      <div className="border bg-gradient-to-r from-[#0a0a0a] via-[#1a0f24] to-[#0a0a0a] rounded-lg  opacity-90 ">
+      <div className="border  rounded-lg  opacity-90 ">
         <article className="flex items-center justify-between p-4 lg:p-6">
           <h2
             className="cursor-pointer text-[#FFFFFF]"
